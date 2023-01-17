@@ -6,4 +6,7 @@
     <string name="cumple">Your birthday is %02d/%02d/%d</string>
     <string name="notificacion">Notification</string>
     <string name="botonnoti">You have pushed the notification button</string>
+    <string name="citahorariaBT">Appointment</string>
+    <string name="citamedicaBT">Medical Appointment</string>
+    <string name="cumpleBT">Birthday</string>
 </resources>

@@ -8,5 +8,9 @@
     <string name="canal" translatable="false">CanalID</string>
     <string name="nombreCanal" translatable="false">Canal</string>
     <string name="descripcion" translatable="false">Canal Descripcion</string>
+    <string name="citahorariaBT">Cita Horaria</string>
+    <string name="citamedicaBT">Cita Médica</string>
+    <string name="cumpleBT">Fecha de Nacimiento</string>
+
 
 </resources>
