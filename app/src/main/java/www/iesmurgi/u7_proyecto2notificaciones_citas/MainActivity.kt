@@ -34,8 +34,6 @@ class MainActivity : AppCompatActivity() {
         var dPicker2: Button = binding.btCitaMed
         var notificacion: Button = binding.btNoti
 
-
-
         //Cita horaria
         tPicker.setOnClickListener{timePicker()}
 
@@ -46,13 +44,9 @@ class MainActivity : AppCompatActivity() {
         dPicker2.setOnClickListener{datePicker2()}
 
         //Notificacion
-        notificacion.setOnClickListener{createNotificationChannel()}
-
-
-
-
-
-
+        notificacion.setOnClickListener{
+            createNotificationChannel()
+            notificacion()}
     }
 
     private fun timePicker() {
@@ -115,7 +109,7 @@ class MainActivity : AppCompatActivity() {
     private fun notificacion() {
         val notificacionID =0
         val canalId = getString(R.string.canal)
-        val largeIcon = BitmapFactory.decodeResource(resources, R.drawable.simbol)
+        val largeIcon = BitmapFactory.decodeResource(resources, R.drawable.activo)
 
 
         val notificacion = NotificationCompat.Builder(this, canalId)
@@ -123,14 +117,14 @@ class MainActivity : AppCompatActivity() {
             .setLargeIcon(largeIcon)
             .setContentTitle(resources.getString(R.string.notificacion))
             .setContentText(resources.getString(R.string.botonnoti))
-            .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+            .setPriority(NotificationCompat.PRIORITY_HIGH)
+            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC)
+            .setAutoCancel(true)
             .build()
 
         with(NotificationManagerCompat.from(this)) {
             notify(notificacionID, notificacion)
         }
-
-
 
     }
 
