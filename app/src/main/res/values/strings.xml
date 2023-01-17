@@ -5,8 +5,8 @@
     <string name="cumple">Tu cumpleaños es el %02d/%02d/%d</string>
     <string name="notificacion">Notificación</string>
     <string name="botonnoti">Has pulsado el botón de notificación</string>
-    <string name="canal">CanalID</string>
-    <string name="nombreCanal">Canal</string>
-    <string name="descripcion">Canal Descripcion</string>
+    <string name="canal" translatable="false">CanalID</string>
+    <string name="nombreCanal" translatable="false">Canal</string>
+    <string name="descripcion" translatable="false">Canal Descripcion</string>
 
 </resources>
