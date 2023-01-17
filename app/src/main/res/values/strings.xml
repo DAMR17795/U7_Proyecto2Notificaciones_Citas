@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">U7_Proyecto2Notificaciones_Citas</string>
+    <string name="citahoraria">Cita asignada para las %02d:%02d</string>
+    <string name="citamedica">Cita médica asignada para el %02d/%02d/%d</string>
+    <string name="cumple">Tu cumpleaños es el %02d/%02d/%d</string>
+    <string name="notificacion">Notificación</string>
+    <string name="botonnoti">Has pulsado el botón de notificación</string>
+    <string name="canal">CanalID</string>
+    <string name="nombreCanal">Canal</string>
+    <string name="descripcion">Canal Descripcion</string>
+
 </resources>
