@@ -7,6 +7,10 @@ android {
     namespace 'www.iesmurgi.u7_proyecto2notificaciones_citas'
     compileSdk 32
 
+    viewBinding {
+        enabled=true
+    }
+
     defaultConfig {
         applicationId "www.iesmurgi.u7_proyecto2notificaciones_citas"
         minSdk 22
